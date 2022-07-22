@@ -9,20 +9,18 @@ header {
   display: flex;
   width: 918px;
   margin: auto;
-  border: 1px solid green;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 #logo {
-  flex-basis: 15%;
-  border: 1px solid green;
+  width: 62px;
+  height: 38px;
 }
 nav {
-  flex-basis: 60%;
+  flex-basis: 30%;
   display: flex;
   justify-content: flex-end;
-  border: 1px solid green;
 }
 
 /* Navigation */
@@ -30,47 +28,49 @@ nav {
 nav ul {
   list-style-type: none;
   display: flex;
-  align-items: flex-end;
 }
 
 nav li {
   margin-right: 20px;
+  padding-left: 20px;
 }
 
 nav a {
-  font-size: 1.3em;
-  color: grey;
+  font-size: 13px;
+  color: #a1a1a1;
   padding-bottom: 3px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
   color: #0065fc;
   border-top: 3px solid #0065fc;
+  padding-top: 14px;
 }
 h1 {
   font-size: large;
 }
 .info1 {
-  color: gray;
-  font-size: small;
-  margin-left: 2px;
-  position: absolute;
-  top: 119px;
+  color: #a1a1a1;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: -6px;
 }
 h1,
-p {
+#af {
   flex-basis: 92%;
-  border: 1px solid green;
+}
+#af {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 #formR {
   flex-basis: 95%;
-  margin-top: 15px;
-  border: 1px solid red;
 }
 i {
-  background: #eeeee4;
+  background: #f2f2f2;
   color: white;
   text-align: center;
   float: left;
@@ -81,20 +81,21 @@ i {
 }
 #formR input {
   height: 28px;
-  border: 2px solid grey;
-  width: 162px;
+  border: 2px solid #f2f2f2;
+  width: 186px;
   float: left;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 #search {
   float: left;
   height: 34px;
-  width: 87px;
+  width: 100px;
   background: #034efc;
   color: white;
   font-weight: bold;
   border-radius: 0px 10px 10px 0px;
-  border: 1px solid #034efc;
   border-left: none;
   cursor: pointer;
 }
@@ -109,7 +110,7 @@ i {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  border: 1px solid grey;
+  border: 1px solid #f2f2f2;
   margin: 10px;
   border-radius: 25px;
 }
@@ -194,23 +195,20 @@ i {
   display: flex;
   width: 918px;
   margin: auto;
-  justify-content: space-around;
-  border: 1px solid black;
+  justify-content: space-between;
 }
 main {
-  width: 590px;
+  width: 611px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: #f2f2f2;
-  border: 1px solid red;
   border-radius: 2.5%;
   padding-top: 1.5%;
 }
 main h2 {
   font-size: medium;
   flex-basis: 92%;
-  border: 1px solid green;
 }
 main article {
   width: 162px;
@@ -220,7 +218,7 @@ main article {
   border-radius: 10%;
 }
 .bas {
-  margin-top: 20px;
+  margin-top: 18px;
 }
 main img {
   width: 162px;
@@ -235,21 +233,19 @@ main article span {
 aside {
   width: 282px;
   background-color: #f2f2f2;
-  border: 1px solid black;
   border-radius: 2.5%;
   padding-top: 1.5%;
 }
 aside h2 {
   font-size: medium;
   width: 230px;
-  height: 21px;
+  height: 26px;
   margin-left: 24px;
-  border: 1px solid green;
 }
 aside article {
   width: 230px;
   height: 94px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   margin-left: 24px;
   border: 3px solid white;
   background-color: white;
@@ -278,12 +274,12 @@ footer {
 }
 footer div {
   margin-top: 3%;
-  border: 1px solid black;
   flex-basis: 20%;
+  margin-left: 8px;
 }
 footer span {
   font-weight: bold;
-  font-size: small;
+  font-size: 13px;
   margin-left: 15%;
 }
 footer ul {
@@ -294,6 +290,7 @@ footer ul {
 footer li {
   margin-top: 4%;
   font-size: small;
+  font-weight: bold;
 }
 footer a {
   text-decoration: none;
