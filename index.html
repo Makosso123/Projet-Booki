@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Booki</title>
   </head>
   <body>
@@ -14,68 +20,121 @@
       </picture>
       <nav>
         <ul>
-          <li><a href="#">Hébergements</a></li>
-          <li><a href="#">Activités</a></li>
+          <li><a href="#hebergements">Hébergements</a></li>
+          <li><a href="#activity">Activités</a></li>
         </ul>
       </nav>
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p class="info1">En plein centre ville ou en pleine nature</p>
-      <form>
-        <input type="text" placeholder="Search.." name="search" />
-        <button type="submit">Recherche</button>
+
+      <form id="formR">
+        <i></i>
+        <input type="text" placeholder="Ville.." />
+        <button id="search" type="submit">Recherche</button>
       </form>
+      <!-- <form id="formFiltre">
+        <ul>
+          <label for=""> Filtres</label>
+          <li>
+            <button class="button"><i class="fas fa-cat"></i>Button</button>
+          </li>
+          <li>
+            <button class="button"><i class="fas fa-cat"></i>Button</button>
+          </li>
+          <li>
+            <button class="button"><i class="fas fa-cat"></i>Button</button>
+          </li>
+          <li>
+            <button class="button"><i class="fas fa-cat"></i>Button</button>
+          </li>
+        </ul>
+      </form> -->
       <div id="filtre"></div>
       <p>plus de 500 logements sont disponibles dans cette ville</p>
     </header>
     <section id="hebergements">
       <main>
         <h2>Hébergements à Marseille</h2>
-        <article>
-          <img
-            src="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-            alt="marcus"
-          />
-          <span>
+        <a href="#">
+          <article>
+            <img
+              src="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+              alt="marcus"
+            />
+            <!-- <span>
             <b>Auberge La Cannebière</b><br />
             Nuit à partir de <b>25&euro;</b>
-          </span>
-        </article>
-        <article>
-          <img
-            src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-            alt="marcus"
-          />
-        </article>
-        <article>
-          <img
-            src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-            alt="marcus"
-          />
-        </article>
-        <article>
-          <img
-            src="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-            alt="marcus"
-          />
-        </article>
-        <article>
-          <img
-            src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-            alt="marcus"
-          />
-        </article>
-        <article>
-          <img
-            src="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-            alt="marcus"
-          />
-        </article>
+          </span> -->
+          </article>
+        </a>
+        <a href="#">
+          <article>
+            <img
+              src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+              alt="fred-kleber"
+            />
+          </article>
+        </a>
+        <a href="#">
+          <article>
+            <img
+              src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+              alt="reisetopia"
+            />
+          </article>
+        </a>
+        <a href="#">
+          <article class="bas">
+            <img
+              src="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+              alt="annie"
+            />
+          </article>
+        </a>
+        <a href="#">
+          <article class="bas">
+            <img
+              src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+              alt="nicate"
+            />
+          </article>
+        </a>
+        <a href="#">
+          <article class="bas">
+            <img
+              src="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+              alt="febrian-zakaria"
+            />
+          </article>
+        </a>
         <p>Afficher plus</p>
       </main>
       <aside>
-        <article></article>
-        <article></article>
-        <article></article>
+        <h2>Les plus populaires</h2>
+        <a href="#">
+          <article>
+            <img
+              src="images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+              alt="emile"
+            />
+          </article>
+        </a>
+        <a href="#">
+          <article>
+            <img
+              src="images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg"
+              alt="aw-creative"
+            />
+          </article>
+        </a>
+        <a href="#">
+          <article>
+            <img
+              src="images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+              alt="aw-creative"
+            />
+          </article>
+        </a>
       </aside>
     </section>
     <section id="activity">
