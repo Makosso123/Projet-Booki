@@ -2,7 +2,6 @@ body {
   font-family: "Raleway", sans-serif;
   width: 992px;
   margin: auto;
-  border: 1px solid blue;
 }
 
 header {
@@ -80,10 +79,11 @@ i {
   border: 1px solid #eeeee4;
 }
 #formR input {
-  height: 28px;
+  height: 27.5px;
   border: 2px solid #f2f2f2;
   width: 186px;
   float: left;
+  padding-left: 8px;
   font-weight: bold;
   font-size: 14px;
 }
@@ -249,21 +249,49 @@ aside article {
   margin-left: 24px;
   border: 3px solid white;
   background-color: white;
-  border-radius: 10%;
+  border-radius: 8px;
 }
 aside img {
   width: 94px;
   height: 94px;
-  border-radius: 10% 0% 0% 10%;
+  border-radius: 8% 0% 0% 8%;
   object-fit: cover;
 }
 /* Fin Section  */
 #activity {
   display: flex;
+  flex-wrap: wrap;
   width: 918px;
   margin: auto;
   justify-content: space-between;
-  border: 1px solid violet;
+  margin-top: 25px;
+}
+#activity article,
+#activity div {
+  width: 216px;
+  height: 312px;
+  border: 1px solid black;
+  border-radius: 4.5%;
+}
+#activity img {
+  width: 216px;
+  height: 276px;
+  border-radius: 4.5% 4.5% 0% 0%;
+  object-fit: cover;
+}
+#activity p {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-top: 6px;
+}
+#activity a {
+  text-decoration: none;
+  color: black;
+}
+#actM {
+  font-size: 16px;
+  flex-basis: 92%;
 }
 /* Début footer */
 footer {
