@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Lien des icones  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Lien de style de police -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
@@ -27,29 +37,37 @@
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p class="info1">En plein centre ville ou en pleine nature</p>
       <form id="formR">
-        <i></i>
+        <i class="fa-solid fa-location-dot"></i>
         <input type="text" placeholder="Ville.." />
         <button id="search" type="submit">Recherche</button>
       </form>
-      <!-- <form id="formFiltre">
-        <ul>
-          <label for=""> Filtres</label>
-          <li>
-            <button class="button"><i class="fas fa-cat"></i>Button</button>
-          </li>
-          <li>
-            <button class="button"><i class="fas fa-cat"></i>Button</button>
-          </li>
-          <li>
-            <button class="button"><i class="fas fa-cat"></i>Button</button>
-          </li>
-          <li>
-            <button class="button"><i class="fas fa-cat"></i>Button</button>
-          </li>
-        </ul>
-      </form> -->
-      <div id="filtre"></div>
-      <p>plus de 500 logements sont disponibles dans cette ville</p>
+      <form id="formFiltre">
+        <p id="filtre">Filtres</p>
+        <div>
+          <ul>
+            <li>
+              <button>
+                <i class="fa-solid fa-money-bill-wave"></i>Economique
+              </button>
+            </li>
+            <li>
+              <button>
+                <i class="fa-solid fa-child-reaching"></i>Familial
+              </button>
+            </li>
+            <li>
+              <button><i class="fa-solid fa-heart"></i>Romantique</button>
+            </li>
+            <li>
+              <button><i class="fa-solid fa-dog"></i>Animaux autorisés</button>
+            </li>
+          </ul>
+        </div>
+      </form>
+      <p id="log">
+        <i class="fa fa-info-circle" id="info"></i>Plus de 500 logements sont
+        disponibles dans cette ville
+      </p>
     </header>
     <section id="hebergements">
       <main>
@@ -60,10 +78,15 @@
               src="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
               alt="marcus"
             />
-            <!-- <span>
-            <b>Auberge La Cannebière</b><br />
-            Nuit à partir de <b>25&euro;</b>
-          </span> -->
+            <h5>Auberge La Cannebière</h5>
+            <p>
+              Nuit à partir de <b>25&euro;</b><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star" id="end"></i>
+            </p>
           </article>
         </a>
         <a href="#">
@@ -72,6 +95,15 @@
               src="images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
               alt="fred-kleber"
             />
+            <h5>Hôtel du port</h5>
+            <p>
+              Nuit à partir de <b>52&euro;</b><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
           </article>
         </a>
         <a href="#">
@@ -80,6 +112,15 @@
               src="images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg"
               alt="reisetopia"
             />
+            <h5>Hôtel Les mouettes</h5>
+            <p>
+              Nuit à partir de <b>76&euro;</b><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star" id="end"></i>
+            </p>
           </article>
         </a>
         <a href="#">
@@ -88,6 +129,15 @@
               src="images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
               alt="annie"
             />
+            <h5>Hôtel de la mer</h5>
+            <p>
+              Nuit à partir de <b>46&euro;</b><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star" id="end"></i>
+              <i class="fa-solid fa-star" id="end"></i>
+            </p>
           </article>
         </a>
         <a href="#">
@@ -96,6 +146,15 @@
               src="images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
               alt="nicate"
             />
+            <h5>Auberge Le panier</h5>
+            <p>
+              Nuit à partir de <b>23&euro;</b><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star" id="end"></i>
+            </p>
           </article>
         </a>
         <a href="#">
@@ -104,18 +163,38 @@
               src="images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
               alt="febrian-zakaria"
             />
+            <h5>Hôtel chez Amina</h5>
+            <p>
+              Nuit à partir de <b>96&euro;</b><br />
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
           </article>
         </a>
         <p id="af">Afficher plus</p>
       </main>
       <aside>
-        <h2>Les plus populaires</h2>
+        <h2>Les plus populaires <i class="fa-solid fa-star" id="pop"></i></h2>
         <a href="#">
           <article>
             <img
               src="images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
               alt="emile"
             />
+            <div>
+              <h5>Hôtel Le soleil du matin</h5>
+              <p>
+                Nuit à partir de <b>128&euro;</b><br />
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </p>
+            </div>
           </article>
         </a>
         <a href="#">
@@ -124,6 +203,17 @@
               src="images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg"
               alt="aw-creative"
             />
+            <div>
+              <h5>Au coeur de l'eau Chambres d'hôtes</h5>
+              <p>
+                Nuit à partir de <b>71&euro;</b><br />
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star" id="end"></i>
+              </p>
+            </div>
           </article>
         </a>
         <a href="#">
@@ -132,6 +222,17 @@
               src="images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
               alt="aw-creative"
             />
+            <div>
+              <h5>Hôtel Tout bleu et Blanc</h5>
+              <p>
+                Nuit à partir de <b>68&euro;</b><br />
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star" id="end"></i>
+              </p>
+            </div>
           </article>
         </a>
       </aside>
@@ -147,7 +248,26 @@
           <p>Vieux port</p>
         </article>
       </a>
-      <div></div>
+      <div>
+        <a href="#">
+          <article id="articleHaut">
+            <img
+              src="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+              alt="Fort de Pomègues"
+            />
+            <p>Fort de Pomègues</p>
+          </article>
+        </a>
+        <a href="#">
+          <article id="articleBas">
+            <img
+              src="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+              alt="îles du Frioul"
+            />
+            <p>îles du Frioul</p>
+          </article>
+        </a>
+      </div>
       <article>
         <a href="#">
           <article>
@@ -159,7 +279,26 @@
           </article>
         </a>
       </article>
-      <div></div>
+      <div>
+        <a href="#">
+          <article id="articleHautDernier">
+            <img
+              src="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+              alt="Notre-Dame-de-la-Garde"
+            />
+            <p>Notre-Dame-de-la-Garde</p>
+          </article>
+        </a>
+        <a href="#">
+          <article id="articleBasDernier">
+            <img
+              src="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+              alt="Parc LongChamp"
+            />
+            <p>Parc LongChamp</p>
+          </article>
+        </a>
+      </div>
     </section>
     <footer>
       <div id="about">

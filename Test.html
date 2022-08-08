@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .btn-group .button {
+        background-color: white;
+        border: none;
+        color: black;
+
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border: 1px solid grey;
+        float: left;
+        margin: 10px;
+        border-radius: 25px;
+      }
+      .fas {
+        font-size: 16px;
+        background-color: #dfecff;
+        color: #0065fc;
+        padding: 16px;
+        border-radius: 50%;
+        margin-left: -20px;
+      }
+
+      .btn-group .button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Button Groups</h2>
+
+    <p>Remove margins and float the buttons to create a button group:</p>
+
+    <div class="btn-group">
+      <button class="button"><i class="fas fa-cat"></i>Button</button>
+      <button class="button">Button</button>
+      <button class="button">Button</button>
+      <button class="button">Button</button>
+    </div>
+
+    <p style="clear: both">
+      <br />Remember to clear floats after, or else will this p element also
+      float next to the buttons.
+    </p>
+  </body>
+</html>
