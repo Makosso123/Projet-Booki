@@ -42,12 +42,177 @@ nav a:hover {
   padding-top: 0px;
 }
 h1 {
-  width: 260px;
   margin-bottom: 16px;
   margin-top: 20px;
-  margin-left: 20px;
+  font-size: 17.5px;
+  margin-left: 10px;
+  width: 280px;
 }
 .info1 {
-  margin-left: 20px;
-  width: 260px;
+  margin-left: 10px;
+  width: 280px;
+}
+#formR {
+  margin-left: 10px;
+  width: 280px;
+}
+#formR i {
+  height: 36px;
+  width: 36px;
+  font-size: 13px;
+}
+#formR input {
+  height: 36px;
+  width: 196px;
+}
+#search {
+  width: 40px;
+  height: 36px;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: -6px;
+}
+#formFiltre #filtre {
+  margin-left: 0;
+}
+#formFiltre {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 280px;
+}
+#formFiltre div ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 280px;
+}
+#formFiltre li {
+  margin-bottom: 10px;
+}
+#info {
+  margin-left: 10px;
+  width: 270px;
+}
+#info div {
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  border-radius: 100%;
+}
+#hebergements {
+  flex-direction: column-reverse;
+  width: 300px;
+  margin-left: 0;
+}
+
+aside {
+  border-radius: 0;
+  width: 300px;
+}
+main {
+  width: 270px;
+  background-color: white;
+  border-radius: 0;
+  margin-left: 12px;
+}
+main h2 {
+  font-size: 14px;
+  margin-left: 4px;
+  width: 230px;
+}
+main article {
+  width: 230px;
+  height: 135px;
+  margin-left: -14px;
+  border: 3px solid white;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px 8px #f2f2f2;
+  margin-bottom: 10px;
+}
+main img {
+  width: 228px;
+  height: 81px;
+  border-radius: 8px 8px 0px 0px;
+  object-fit: cover;
+}
+.bas {
+  margin-top: 0;
+}
+#activity {
+  width: 270px;
+  margin-left: 12px;
+  flex-direction: column;
+}
+#activity article {
+  width: 230px;
+  height: 140px;
+  margin-left: 14px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px 8px #f2f2f2;
+  margin-bottom: 10px;
+}
+#activity img {
+  width: 228px;
+  height: 106px;
+  border-radius: 8px 8px 0px 0px;
+  object-fit: cover;
+}
+#activity div {
+  width: 270px;
+  border-radius: 0px;
+  margin-top: 2px;
+  justify-content: flex-start;
+}
+#activity div #articleHaut,
+#activity div #articleHautDernier,
+#activity div #articleBasDernier,
+#activity div #articleBas {
+  width: 230px;
+  height: 140px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px 8px #f2f2f2;
+}
+
+#activity #articleHautDernier img,
+#activity #articleBasDernier img,
+#activity #articleHaut img,
+#activity #articleBas img {
+  width: 228px;
+  height: 106px;
+  border-radius: 8px 8px 0px 0px;
+  object-fit: cover;
+}
+#activity p {
+  font-size: 12px;
+  margin-left: 10px;
+}
+#actM {
+  font-size: 14px;
+  margin-left: 10px;
+}
+footer {
+  width: 300px;
+  flex-direction: column;
+  margin-top: 0;
+}
+footer div {
+  margin-top: 3%;
+  flex-basis: 20%;
+  margin-left: 14px;
+}
+footer span {
+  font-weight: bold;
+  font-size: 11px;
+  margin-left: 14px;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 14px;
+}
+footer li {
+  margin-top: 4%;
 }

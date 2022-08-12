@@ -184,7 +184,6 @@ ul button:hover {
 #hebergements {
   display: flex;
   width: 918px;
-  /* margin: auto; */
   margin-left: 37px;
   justify-content: space-between;
 }
@@ -227,6 +226,24 @@ h5 {
   margin: 0;
   margin-left: 6px;
 }
+aside {
+  width: 282px;
+  background-color: #f2f2f2;
+  border-radius: 2.5%;
+  padding-top: 1.5%;
+}
+aside article {
+  width: 230px;
+  height: 94px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  border: 3px solid white;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 aside h5 {
   color: black;
   font-size: 11.5px;
@@ -268,12 +285,7 @@ aside article P i {
   font-size: 8px;
   color: #f2f2f2;
 }
-aside {
-  width: 282px;
-  background-color: #f2f2f2;
-  border-radius: 2.5%;
-  padding-top: 1.5%;
-}
+
 aside h2 {
   font-size: 13px;
   width: 236px;
@@ -283,18 +295,7 @@ aside h2 {
 #pop {
   float: right;
 }
-aside article {
-  width: 230px;
-  height: 94px;
-  margin-bottom: 24px;
-  margin-left: 24px;
-  border: 3px solid white;
-  background-color: white;
-  border-radius: 8px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 aside img {
   width: 94px;
   height: 88px;
@@ -306,7 +307,6 @@ aside img {
   display: flex;
   flex-wrap: wrap;
   width: 918px;
-  /* margin: auto; */
   margin-left: 37px;
   justify-content: space-between;
   margin-top: 25px;
@@ -315,7 +315,7 @@ aside img {
   width: 210px;
   height: 312px;
   border-radius: 10px;
-  box-shadow: 2px 4.5px 4.5px #f2f2f2, -2px -0.5px 4.5px #f2f2f2;
+  box-shadow: 1px 1px 4px 4px #f2f2f2;
 }
 #activity div {
   width: 210px;
@@ -329,27 +329,27 @@ aside img {
   width: 210px;
   height: 158px;
   border-radius: 4.5%;
-  box-shadow: 2px 4.5px 4.5px #f2f2f2, -2px -0.5px 4.5px #f2f2f2;
+  box-shadow: 1px 1px 5px 5px #f2f2f2;
 }
 
 #activity div #articleHautDernier {
   width: 210px;
   height: 136px;
   border-radius: 4.5%;
-  box-shadow: 2px 4.5px 4.5px #f2f2f2, -2px -0.5px 4.5px #f2f2f2;
+  box-shadow: 1px 1px 5px 5px #f2f2f2;
 }
 #activity div #articleBasDernier {
   width: 210px;
   height: 146px;
   border-radius: 4.5%;
-  box-shadow: 2px 4.5px 4.5px #f2f2f2, -2px -0.5px 4.5px #f2f2f2;
+  box-shadow: 1px 1px 5px 5px #f2f2f2;
 }
 
 #activity div #articleBas {
   width: 210px;
   height: 122px;
   border-radius: 4.5%;
-  box-shadow: 2px 4.5px 4.5px #f2f2f2, -2px -0.5px 4.5px #f2f2f2;
+  box-shadow: 1px 1px 5px 5px #f2f2f2;
 }
 
 #activity #articleHautDernier img {
