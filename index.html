@@ -44,9 +44,12 @@
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p class="info1">En plein centre ville ou en pleine nature</p>
       <form id="formR">
-        <i class="fa-solid fa-location-dot"></i>
-        <input type="text" placeholder="Ville.." />
-        <button id="search" type="submit">Recherche</button>
+        <i class="fa-solid fa-location-dot" id="iconeLocation"></i>
+        <input type="text" value="Marseille, France" />
+        <button id="searchVersionD" type="submit">Recherche</button>
+        <button id="searchVersionM">
+          <i class="fa-solid fa-magnifying-glass" id="iconeSearch"></i>
+        </button>
       </form>
       <form id="formFiltre">
         <p id="filtre">Filtres</p>
@@ -73,7 +76,7 @@
       </form>
 
       <div id="info">
-        <div><i class="fa-solid fa-info fa-xs"></i></div>
+        <div><i class="fa-solid fa-info"></i></div>
         <p id="log">Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
     </header>
