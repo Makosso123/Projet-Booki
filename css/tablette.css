@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 768px;
+  margin-left: 4px;
+  justify-content: flex-start;
+}
+nav {
+  flex-basis: 700px;
+}
+#info {
+  margin-left: 8px;
+}
+/* Début section hébergement */
+#hebergements {
+  width: 768px;
+  margin-left: 0px;
+}
+main {
+  width: 520px;
+}
+main h2 {
+  flex-basis: 96%;
+}
+aside {
+  width: 240px;
+}
+aside h2 {
+  margin-left: 4px;
+}
+aside article {
+  margin-left: 4px;
+}
+/* Fin Section  */
+#activity {
+  width: 768px;
+  margin-left: 4px;
+  justify-content: space-around;
+}
+#actM {
+  font-size: 14px;
+  flex-basis: 96%;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+#activity article {
+  width: 230px;
+  height: 140px;
+  margin-bottom: 24px;
+}
+#activity img {
+  width: 228px;
+  height: 106px;
+  border-radius: 8px 8px 0px 0px;
+}
+#activity div {
+  width: 488px;
+  height: 0;
+  border-radius: 0px;
+  margin-bottom: 24px;
+  flex-direction: row;
+}
+#activity div #articleHaut,
+#activity div #articleHautDernier,
+#activity div #articleBasDernier,
+#activity div #articleBas {
+  width: 230px;
+  height: 140px;
+  border-radius: 8px;
+}
+
+#activity #articleHautDernier img,
+#activity #articleBasDernier img,
+#activity #articleHaut img,
+#activity #articleBas img {
+  width: 228px;
+  height: 106px;
+  border-radius: 8px 8px 0px 0px;
+}
+footer {
+  width: 768px;
+  margin-top: 4px;
+}
+footer div {
+  margin-left: 0px;
+}

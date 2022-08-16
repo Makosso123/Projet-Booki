@@ -28,9 +28,7 @@ nav ul {
 nav a {
   font-size: 12px;
   width: 50%;
-  color: black;
   font-weight: normal;
-  text-decoration: none;
   border-bottom: 3px solid #a1a1a1;
   padding-bottom: 16px;
 }
@@ -163,7 +161,6 @@ main img {
   width: 228px;
   height: 106px;
   border-radius: 8px 8px 0px 0px;
-  object-fit: cover;
 }
 #activity div {
   width: 270px;
@@ -188,7 +185,6 @@ main img {
   width: 228px;
   height: 106px;
   border-radius: 8px 8px 0px 0px;
-  object-fit: cover;
 }
 #activity p {
   font-size: 12px;
