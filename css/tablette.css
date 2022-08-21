@@ -14,14 +14,14 @@ nav {
   margin-left: 8px;
 }
 /* Début section hébergement */
-#hebergements {
+main {
   width: 768px;
   margin-left: 0px;
 }
-main {
+#hebergements {
   width: 520px;
 }
-main h2 {
+#hebergements h2 {
   flex-basis: 96%;
 }
 aside {

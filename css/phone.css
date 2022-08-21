@@ -24,8 +24,7 @@ nav ul {
   margin: 0;
   padding: 0;
 }
-
-nav a {
+nav li {
   font-size: 12px;
   width: 50%;
   font-weight: normal;
@@ -33,7 +32,7 @@ nav a {
   padding-bottom: 16px;
 }
 
-nav a:hover {
+nav li:hover {
   color: #0065fc;
   border-bottom: 3px solid #0065fc;
   border-top: 0;
@@ -103,7 +102,7 @@ h1 {
   height: 20px;
   border-radius: 25px;
 }
-#hebergements {
+main {
   flex-direction: column-reverse;
   width: 300px;
   margin-left: 0;
@@ -113,18 +112,18 @@ aside {
   border-radius: 0;
   width: 300px;
 }
-main {
+#hebergements {
   width: 270px;
   background-color: white;
   border-radius: 0;
   margin-left: 12px;
 }
-main h2 {
+#hebergements h2 {
   font-size: 14px;
   margin-left: 4px;
   width: 230px;
 }
-main article {
+#hebergements article {
   width: 230px;
   height: 135px;
   margin-left: -14px;
@@ -134,7 +133,7 @@ main article {
   box-shadow: 3px 3px 8px 8px #f2f2f2;
   margin-bottom: 10px;
 }
-main img {
+#hebergements img {
   width: 228px;
   height: 81px;
   border-radius: 8px 8px 0px 0px;

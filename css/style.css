@@ -33,7 +33,7 @@ nav ul {
   display: flex;
 }
 
-nav a {
+nav li {
   font-size: 11.5px;
   padding-top: 25px;
   text-decoration: none;
@@ -41,8 +41,21 @@ nav a {
   color: black;
   text-align: center;
 }
+nav a {
+  text-decoration: none;
+  color: black;
+}
 
-nav a:hover {
+/* nav a {
+  font-size: 11.5px;
+  padding-top: 25px;
+  text-decoration: none;
+  width: 106px;
+  color: black;
+  text-align: center;
+} */
+
+nav li:hover {
   color: #0065fc;
   border-top: 4px solid #0065fc;
 }
@@ -197,13 +210,13 @@ ul button:hover {
 }
 
 /* Début section hébergement */
-#hebergements {
+main {
   display: flex;
   width: 918px;
   margin-left: 37px;
   justify-content: space-between;
 }
-main {
+#hebergements {
   width: 611px;
   display: flex;
   flex-wrap: wrap;
@@ -212,11 +225,11 @@ main {
   border-radius: 2.5%;
   padding-top: 1.5%;
 }
-main h2 {
+#hebergements h2 {
   font-size: 13px;
   flex-basis: 90%;
 }
-main article {
+#hebergements article {
   width: 162px;
   height: 135px;
   border: 3px solid white;
@@ -226,7 +239,7 @@ main article {
 .bas {
   margin-top: 18px;
 }
-main img {
+#hebergements img {
   width: 156px;
   height: 81px;
   border-radius: 10% 10% 0% 0%;
@@ -290,13 +303,13 @@ aside article P {
 b {
   color: black;
 }
-main article P {
+#hebergements article P {
   font-size: 10px;
   color: #a1a1a1;
   margin-left: 6px;
   margin-top: 2px;
 }
-main article P i {
+#hebergements article P i {
   font-size: 8px;
   margin-top: 4px;
   color: #034efc;
@@ -306,7 +319,7 @@ aside article P i {
   color: #034efc;
   margin-top: 28px;
 }
-#end {
+.end {
   font-size: 8px;
   color: #f2f2f2;
 }
