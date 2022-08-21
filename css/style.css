@@ -54,7 +54,9 @@ nav a {
   color: black;
   text-align: center;
 } */
-
+nav li {
+  border-top: 4px solid white;
+}
 nav li:hover {
   color: #0065fc;
   border-top: 4px solid #0065fc;
@@ -248,7 +250,8 @@ main {
 a {
   text-decoration: none;
 }
-h5 {
+
+#hebergements article h2 {
   color: black;
   font-size: 11.5px;
   padding: 0;
@@ -282,7 +285,7 @@ aside article {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-aside h5 {
+aside article div h2 {
   color: black;
   font-size: 11.5px;
   height: 30px;
@@ -411,7 +414,7 @@ aside img {
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
 }
-#activity p {
+#activity h2 {
   font-size: 10.5px;
   font-weight: bold;
   margin-left: 8px;
