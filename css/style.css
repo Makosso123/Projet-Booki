@@ -16,13 +16,13 @@ header {
   flex-wrap: wrap;
 }
 
-#logo {
+picture img {
   width: 82px;
   height: 45px;
   margin-top: 25px;
 }
 nav {
-  width: 28%;
+  width: 30%;
   display: flex;
 }
 
@@ -144,7 +144,7 @@ h1,
   align-items: center;
   justify-content: center;
 }
-#log {
+#info p {
   font-size: 12px;
   padding: 0;
   padding-top: 2px;
@@ -216,7 +216,6 @@ main {
   width: 85%;
   margin-left: 50px;
   justify-content: space-between;
-  /* height: 520px; */
 }
 main section {
   width: 66%;
@@ -267,8 +266,8 @@ section article P {
   font-size: 12px;
   color: #a1a1a1;
   margin-left: 6px;
-  margin-top: 2px;
   padding: 0;
+  margin-top: 2.5px;
 }
 section article P i {
   font-size: 12px;
@@ -321,9 +320,8 @@ aside h2 i {
 aside a article P {
   font-size: 13px;
   color: #a1a1a1;
-  margin-top: 0;
-  height: 62px;
   margin-left: 10px;
+  margin-top: 2.5px;
 }
 aside article P i {
   font-size: 12px;
@@ -334,6 +332,7 @@ aside a article div h2 {
   color: black;
   font-size: 13px;
   margin-left: 10px;
+  margin-bottom: 1px;
 }
 
 b {
@@ -365,6 +364,11 @@ b {
 #activity a article {
   width: 100%;
   height: 100%;
+}
+#activity a article h2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 8px;
 }
 #activity img {
   width: 100%;

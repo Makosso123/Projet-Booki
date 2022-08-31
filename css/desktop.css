@@ -1,0 +1,162 @@
+body {
+  width: 100%;
+  margin: auto;
+  border: 1px solid black;
+}
+header {
+  width: 91%;
+  margin-left: 32px;
+}
+picture img {
+  width: 70px;
+  height: 36px;
+}
+nav {
+  width: 26%;
+}
+nav li {
+  font-size: 13px;
+}
+h1 {
+  font-size: 15px;
+}
+.info1 {
+  font-size: 13px;
+}
+#af {
+  font-size: 13px;
+}
+#formFiltre {
+  margin-top: 20px;
+  width: 80%;
+}
+
+main {
+  width: 91%;
+  margin-left: 32px;
+}
+main section {
+  width: 66%;
+}
+main section h2 {
+  font-size: 15px;
+}
+main section a {
+  width: 29%;
+  height: 140px;
+  margin: 12px;
+}
+main section a article img {
+  height: 80px;
+}
+
+main section a article h2 {
+  font-size: 11px;
+}
+section article P {
+  font-size: 9.5px;
+}
+section article P i {
+  font-size: 8.5px;
+}
+
+.end {
+  font-size: 8.5px;
+  color: #f2f2f2;
+}
+
+main aside {
+  width: 31.5%;
+}
+main aside h2 {
+  font-size: 15px;
+}
+main aside a {
+  height: 100px;
+}
+
+main aside a article img {
+  width: 40%;
+}
+
+aside a article P {
+  font-size: 9.5px;
+}
+aside article P i {
+  font-size: 8.5px;
+  margin-top: 24px;
+}
+aside a article div h2 {
+  font-size: 11px;
+}
+
+/* Fin Section  */
+#activity {
+  width: 91%;
+  margin-left: 32px;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+#activity h2 {
+  font-size: 15px;
+}
+#activity a {
+  width: 22.5%;
+  height: 300px;
+}
+#activity a article h2 {
+  font-size: 11px;
+}
+
+#activity img {
+  height: 265px;
+}
+
+#activity div {
+  width: 22.5%;
+  height: 300px;
+}
+#activity div #articleHaut {
+  height: 160px;
+  margin-bottom: 40px;
+}
+#activity div #articleBas {
+  height: 100px;
+}
+
+#activity #articleHaut img {
+  height: 125px;
+}
+#activity #articleBas img {
+  height: 65px;
+}
+
+#activity div #articleHautDernier {
+  height: 110px;
+}
+#activity div #articleBasDernier {
+  height: 150px;
+}
+
+#activity #articleHautDernier img {
+  height: 75px;
+}
+#activity #articleBasDernier img {
+  height: 115px;
+}
+
+/* Début footer */
+footer {
+  width: 98%;
+}
+footer div {
+  margin-top: 3%;
+  flex-basis: 20%;
+  margin-left: 8px;
+}
+footer span {
+  font-size: 12.5px;
+}
+footer li {
+  font-size: 10.5px;
+}
