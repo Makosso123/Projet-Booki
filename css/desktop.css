@@ -1,7 +1,5 @@
 body {
-  width: 100%;
-  margin: auto;
-  border: 1px solid black;
+  margin: 0;
 }
 header {
   width: 91%;
@@ -43,25 +41,25 @@ main section h2 {
 }
 main section a {
   width: 29%;
-  height: 140px;
+  height: 142px;
   margin: 12px;
 }
 main section a article img {
-  height: 80px;
+  height: 78px;
 }
 
 main section a article h2 {
-  font-size: 11px;
+  font-size: 10px;
 }
 section article P {
-  font-size: 9.5px;
+  font-size: 9px;
 }
 section article P i {
-  font-size: 8.5px;
+  font-size: 8px;
 }
 
 .end {
-  font-size: 8.5px;
+  font-size: 8px;
   color: #f2f2f2;
 }
 
@@ -75,27 +73,21 @@ main aside a {
   height: 100px;
 }
 
-main aside a article img {
-  width: 40%;
-}
-
 aside a article P {
-  font-size: 9.5px;
+  font-size: 9px;
 }
 aside article P i {
-  font-size: 8.5px;
+  font-size: 8px;
   margin-top: 24px;
 }
 aside a article div h2 {
-  font-size: 11px;
+  font-size: 10px;
 }
 
-/* Fin Section  */
+/* Fin main */
 #activity {
   width: 91%;
   margin-left: 32px;
-  justify-content: space-between;
-  margin-top: 25px;
 }
 #activity h2 {
   font-size: 15px;
@@ -149,11 +141,7 @@ aside a article div h2 {
 footer {
   width: 98%;
 }
-footer div {
-  margin-top: 3%;
-  flex-basis: 20%;
-  margin-left: 8px;
-}
+
 footer span {
   font-size: 12.5px;
 }

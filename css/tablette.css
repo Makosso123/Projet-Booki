@@ -3,86 +3,144 @@ body {
 }
 
 header {
-  width: 768px;
-  margin-left: 4px;
-  justify-content: flex-start;
+  width: 95%;
+  margin-left: 10px;
 }
 nav {
-  flex-basis: 700px;
+  width: 51%;
 }
-#info {
-  margin-left: 8px;
+nav li {
+  font-size: 13px;
 }
-/* Début section hébergement */
-main {
-  width: 768px;
-  margin-left: 0px;
+h1 {
+  font-size: 15px;
 }
-#hebergements {
-  width: 520px;
+.info1 {
+  font-size: 13px;
 }
-#hebergements h2 {
-  flex-basis: 96%;
+#af {
+  font-size: 13px;
 }
-aside {
-  width: 240px;
-}
-aside h2 {
-  margin-left: 4px;
-}
-aside article {
-  margin-left: 4px;
-}
-/* Fin Section  */
-#activity {
-  width: 768px;
-  margin-left: 4px;
-  justify-content: space-around;
-}
-#actM {
-  font-size: 14px;
-  flex-basis: 96%;
-  margin-left: 0;
-  margin-bottom: 20px;
-}
-#activity article {
-  width: 230px;
-  height: 140px;
-  margin-bottom: 24px;
-}
-#activity img {
-  width: 228px;
-  height: 106px;
-  border-radius: 8px 8px 0px 0px;
-}
-#activity div {
-  width: 488px;
-  height: 0;
-  border-radius: 0px;
-  margin-bottom: 24px;
-  flex-direction: row;
-}
-#activity div #articleHaut,
-#activity div #articleHautDernier,
-#activity div #articleBasDernier,
-#activity div #articleBas {
-  width: 230px;
-  height: 140px;
-  border-radius: 8px;
+#formFiltre {
+  margin-top: 20px;
+  width: 96%;
 }
 
-#activity #articleHautDernier img,
-#activity #articleBasDernier img,
-#activity #articleHaut img,
+main {
+  width: 95%;
+  margin-left: 10px;
+}
+main section {
+  width: 67%;
+}
+main section h2 {
+  font-size: 13px;
+}
+main section a {
+  width: 27.9%;
+  height: 142px;
+  margin: 12px;
+}
+main section a article img {
+  height: 78px;
+}
+
+main section a article h2 {
+  font-size: 10px;
+}
+section article P {
+  font-size: 9px;
+}
+section article P i {
+  font-size: 8px;
+}
+
+.end {
+  font-size: 8px;
+  color: #f2f2f2;
+}
+
+main aside {
+  width: 31.5%;
+}
+main aside h2 {
+  font-size: 13px;
+}
+main aside a {
+  height: 92px;
+}
+
+aside a article P {
+  font-size: 9px;
+}
+aside article P i {
+  font-size: 8px;
+  margin-top: 18px;
+}
+aside a article div h2 {
+  font-size: 10px;
+}
+
+/* Fin main  */
+#activity {
+  width: 95%;
+  margin-left: 10px;
+}
+#activity h2 {
+  font-size: 13px;
+}
+#activity a {
+  width: 22.5%;
+  height: 250px;
+}
+#activity a article h2 {
+  font-size: 10px;
+}
+
+#activity img {
+  height: 215px;
+}
+
+#activity div {
+  width: 22.5%;
+  height: 250px;
+}
+#activity div #articleHaut {
+  height: 120px;
+  margin-bottom: 40px;
+}
+
+#activity #articleHaut img {
+  height: 85px;
+}
+#activity div #articleBas {
+  height: 90px;
+}
 #activity #articleBas img {
-  width: 228px;
-  height: 106px;
-  border-radius: 8px 8px 0px 0px;
+  height: 55px;
 }
+
+#activity div #articleHautDernier {
+  height: 100px;
+}
+#activity #articleHautDernier img {
+  height: 70px;
+}
+#activity div #articleBasDernier {
+  height: 110px;
+}
+#activity #articleBasDernier img {
+  height: 75px;
+}
+
+/* Début footer */
 footer {
-  width: 768px;
-  margin-top: 4px;
+  width: 99%;
 }
-footer div {
-  margin-left: 0px;
+
+footer span {
+  font-size: 11px;
+}
+footer li {
+  font-size: 9px;
 }

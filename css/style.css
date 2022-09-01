@@ -455,7 +455,7 @@ footer {
 }
 footer div {
   margin-top: 3%;
-  flex-basis: 20%;
+  width: 50%;
   margin-left: 8px;
 }
 footer span {
@@ -477,5 +477,5 @@ footer a {
   color: black;
 }
 #assistance {
-  margin-right: 17%;
+  margin-right: 10%;
 }
