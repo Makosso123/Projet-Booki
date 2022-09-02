@@ -41,15 +41,13 @@ nav li {
   text-decoration: none;
   color: black;
   text-align: center;
+  border-top: 4px solid white;
 }
 nav a {
   text-decoration: none;
   color: black;
 }
 
-nav li {
-  border-top: 4px solid white;
-}
 nav li:hover {
   border-top: 4px solid #0065fc;
 }
@@ -66,7 +64,7 @@ h1 {
 }
 h1,
 #af {
-  flex-basis: 92%;
+  width: 92%;
 }
 #af {
   font-size: 14px;
@@ -74,7 +72,7 @@ h1,
 }
 
 #formR {
-  flex-basis: 100%;
+  width: 100%;
 }
 #formR #iconeLocation {
   background: #f2f2f2;
