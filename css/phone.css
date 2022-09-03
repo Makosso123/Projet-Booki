@@ -19,12 +19,10 @@ picture img {
 }
 nav {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -67,133 +65,111 @@ h1 {
 }
 
 #formR #iconeLocation {
-  height: 45px;
-  width: 16%;
-  font-size: 13px;
+  height: 46px;
+  width: 15%;
+  font-size: 15px;
 }
 
 #formR input {
-  height: 45px;
-  width: 70%;
+  height: 46px;
+  width: 72%;
 }
 
 #searchVersionD {
   display: none;
 }
+#iconeSearch {
+  font-size: 15px;
+}
 #searchVersionM {
   display: unset;
-  width: 16%;
-  height: 45px;
+  width: 15%;
+  height: 46px;
   border-radius: 10px 10px 10px 10px;
   margin-left: -2%;
 }
 
 #formFiltre {
   margin-top: 20px;
-  width: 96%;
+  width: 88%;
   margin-left: 20px;
+}
+#formFiltre p {
+  font-size: 15px;
+  padding: 0;
+  margin-bottom: 0;
+}
+#formFiltre div ul {
+  width: 100%;
+}
+#formFiltre li {
+  margin: 7px;
+}
+#info {
+  width: 87%;
+  margin-left: 27px;
+}
+#info p {
+  font-size: 15px;
+}
+#info div {
+  width: 25px;
+  height: 21px;
+  border-radius: 25px;
+}
+
+main {
+  flex-direction: column-reverse;
+  width: 100%;
+  margin-left: 0;
+}
+main aside {
+  border-radius: 0;
+  width: 100%;
+}
+aside h2 {
+  font-size: 20px;
+  width: 88%;
+  margin-left: 20px;
+}
+main aside a {
+  width: 88%;
+  margin-left: 20px;
+}
+
+main section {
+  width: 90%;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 0;
+}
+main section h2 {
+  width: 100%;
+  margin-left: 0;
+}
+main section a {
+  width: 100%;
+  margin: 8px 8px;
+  box-shadow: 1px 1px 6px 6px #f2f2f2;
+}
+#activity {
+  width: 100%;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+footer {
+  width: 100%;
+  flex-direction: column;
+  margin-top: 0;
 }
 
 /* 
 
-#formR {
-  margin-left: 10px;
-  width: 280px;
-}
-#formR #iconeLocation {
-  height: 36px;
-  width: 36px;
-  font-size: 13px;
-}
-
-#formR input {
-  height: 36px;
-  width: 196px;
-}
-
-#searchVersionD {
-  display: none;
-}
-#searchVersionM {
-  display: unset;
-  width: 40px;
-  height: 36px;
-  border-radius: 10px 10px 10px 10px;
-  margin-left: -6px;
-}
-#formFiltre #filtre {
-  margin-left: 0;
-}
-#formFiltre {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
-  width: 280px;
-}
-#formFiltre div ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 280px;
-}
-#formFiltre li {
-  margin-bottom: 10px;
-}
-#info {
-  margin-left: 10px;
-  width: 270px;
-}
-#info div {
-  width: 20px;
-  height: 20px;
-  border-radius: 25px;
-}
-main {
-  flex-direction: column-reverse;
-  width: 300px;
-  margin-left: 0;
-}
-
-aside {
-  border-radius: 0;
-  width: 300px;
-}
-#hebergements {
-  width: 270px;
-  background-color: white;
-  border-radius: 0;
-  margin-left: 12px;
-}
-#hebergements h2 {
-  font-size: 14px;
-  margin-left: 4px;
-  width: 230px;
-}
-#hebergements article {
-  width: 230px;
-  height: 135px;
-  margin-left: -14px;
-  border: 3px solid white;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 3px 3px 8px 8px #f2f2f2;
-  margin-bottom: 10px;
-}
-#hebergements img {
-  width: 228px;
-  height: 81px;
-  border-radius: 8px 8px 0px 0px;
-  object-fit: cover;
-}
 .bas {
   margin-top: 0;
 }
-#activity {
-  width: 270px;
-  margin-left: 12px;
-  flex-direction: column;
-}
+
 #activity article {
   width: 230px;
   height: 140px;
