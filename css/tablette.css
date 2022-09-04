@@ -1,11 +1,7 @@
-body {
-  margin: 0;
-}
-
-header {
+/* header {
   width: 95%;
   margin-left: 10px;
-}
+} */
 nav {
   width: 51%;
 }
@@ -23,13 +19,15 @@ h1 {
 }
 #formFiltre {
   margin-top: 20px;
-  width: 96%;
+}
+#formFiltre li {
+  margin-bottom: 10px;
 }
 
-main {
+/* main {
   width: 95%;
   margin-left: 10px;
-}
+} */
 main section {
   width: 67%;
 }
@@ -82,10 +80,10 @@ aside a article div h2 {
 }
 
 /* Fin main  */
-#activity {
+/* #activity {
   width: 95%;
   margin-left: 10px;
-}
+} */
 #activity h2 {
   font-size: 13px;
 }
@@ -134,9 +132,9 @@ aside a article div h2 {
 }
 
 /* Début footer */
-footer {
+/* footer {
   width: 99%;
-}
+} */
 
 footer span {
   font-size: 11px;
