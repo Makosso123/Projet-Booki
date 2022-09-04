@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  border: 1px solid black;
 }
 
 header {
@@ -13,7 +12,7 @@ picture {
   justify-content: center;
 }
 picture img {
-  width: 90px;
+  width: 88px;
   height: 50px;
   margin-top: 15px;
 }
@@ -138,7 +137,7 @@ main aside a {
 }
 
 main section {
-  width: 90%;
+  width: 88%;
   margin-left: 20px;
   background-color: white;
   border-radius: 0;
@@ -149,93 +148,72 @@ main section h2 {
 }
 main section a {
   width: 100%;
-  margin: 8px 8px;
   box-shadow: 1px 1px 6px 6px #f2f2f2;
 }
 #activity {
-  width: 100%;
+  width: 88%;
   margin-left: 20px;
   flex-direction: column;
 }
-
-footer {
-  width: 100%;
-  flex-direction: column;
-  margin-top: 0;
-}
-
-/* 
-
-.bas {
-  margin-top: 0;
-}
-
-#activity article {
-  width: 230px;
-  height: 140px;
-  margin-left: 14px;
+#activity a {
+  width: 93%;
+  margin: 10px;
+  height: 180px;
   background-color: white;
-  border-radius: 8px;
-  box-shadow: 3px 3px 8px 8px #f2f2f2;
-  margin-bottom: 10px;
 }
 #activity img {
-  width: 228px;
-  height: 106px;
-  border-radius: 8px 8px 0px 0px;
+  width: 100%;
+  height: 120px;
 }
+
 #activity div {
-  width: 270px;
+  width: 93%;
+  margin-left: 11px;
+  margin-top: 11px;
   border-radius: 0px;
-  margin-top: 2px;
-  justify-content: flex-start;
 }
 #activity div #articleHaut,
 #activity div #articleHautDernier,
 #activity div #articleBasDernier,
 #activity div #articleBas {
-  width: 230px;
-  height: 140px;
-  border-radius: 8px;
-  box-shadow: 3px 3px 8px 8px #f2f2f2;
+  width: 100%;
+  height: 183px;
+  background-color: white;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#activity div #articleBasDernier,
+#activity div #articleBas {
+  margin-top: 0px;
+  margin-bottom: 11px;
 }
 
 #activity #articleHautDernier img,
 #activity #articleBasDernier img,
 #activity #articleHaut img,
 #activity #articleBas img {
-  width: 228px;
-  height: 106px;
-  border-radius: 8px 8px 0px 0px;
+  width: 100%;
+  height: 130px;
 }
-#activity h2 {
-  font-size: 12px;
-  margin-left: 10px;
-}
-#actM {
-  font-size: 14px;
-  margin-left: 10px;
-}
+
 footer {
-  width: 300px;
+  width: 100%;
   flex-direction: column;
-  margin-top: 0;
+  margin-top: 40px;
 }
 footer div {
-  margin-top: 3%;
-  flex-basis: 20%;
+  width: 88%;
   margin-left: 14px;
 }
 footer span {
-  font-weight: bold;
-  font-size: 11px;
+  font-size: 17px;
   margin-left: 14px;
 }
 footer ul {
-  list-style-type: none;
   padding: 0;
   margin-left: 14px;
 }
 footer li {
-  margin-top: 4%;
-} */
+  font-size: 16px;
+}
