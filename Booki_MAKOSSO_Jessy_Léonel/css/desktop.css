@@ -1,0 +1,111 @@
+picture img {
+  width: 70px;
+  height: 36px;
+}
+nav li {
+  font-size: 13px;
+}
+h1 {
+  font-size: 15px;
+}
+.info1 {
+  font-size: 13px;
+}
+#af {
+  font-size: 13px;
+}
+#formFiltre {
+  margin-top: 20px;
+  width: 76%;
+}
+main section h2 {
+  font-size: 15px;
+}
+main section a {
+  width: 29%;
+  height: 142px;
+  margin: 12px;
+}
+main section a article img {
+  height: 78px;
+}
+main section a article h2 {
+  font-size: 10px;
+}
+section article P {
+  font-size: 9px;
+}
+section article P i {
+  font-size: 8px;
+}
+.end {
+  font-size: 8px;
+  color: #f2f2f2;
+}
+main aside {
+  width: 31.5%;
+}
+main aside h2 {
+  font-size: 15px;
+}
+main aside a {
+  height: 100px;
+}
+aside a article P {
+  font-size: 9px;
+}
+aside article P i {
+  font-size: 8px;
+  margin-top: 24px;
+}
+aside a article div h2 {
+  font-size: 10px;
+}
+#activity h2 {
+  font-size: 15px;
+}
+#activity a {
+  width: 22.5%;
+  height: 300px;
+}
+#activity a article h2 {
+  font-size: 11px;
+}
+#activity img {
+  height: 265px;
+}
+#activity div {
+  width: 22.5%;
+  height: 300px;
+}
+#activity div #articleHaut {
+  height: 160px;
+  margin-bottom: 40px;
+}
+#activity div #articleBas {
+  height: 100px;
+}
+#activity #articleHaut img {
+  height: 125px;
+}
+#activity #articleBas img {
+  height: 65px;
+}
+#activity div #articleHautDernier {
+  height: 110px;
+}
+#activity div #articleBasDernier {
+  height: 150px;
+}
+#activity #articleHautDernier img {
+  height: 75px;
+}
+#activity #articleBasDernier img {
+  height: 115px;
+}
+footer span {
+  font-size: 12.5px;
+}
+footer li {
+  font-size: 10.5px;
+}
